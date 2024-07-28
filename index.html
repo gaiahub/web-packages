@@ -3,7 +3,14 @@
 <head>
     <title>Hello World Website</title>
 </head>
-
+<script type="module">
+    import Chatbot from "https://gaiahub.github.io/web-packages/gaia-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "a9ad179d-6ebd-4431-9042-ca05c78edc09",
+        apiHost: "https://api.gaiahub.ai",
+    })
+    
+</script>
 <body>
     <h1>Hello World</h1>
 </body>
